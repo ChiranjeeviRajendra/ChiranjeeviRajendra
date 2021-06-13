@@ -2,6 +2,20 @@
     margin-bottom: 48px;
   }
 
-  .groupTab {
+  /* .groupTab {
       background-color: rgb(122, 239, 255);
   }
+   */
+  .mat-tab-label {
+      color: brown;
+      background-color: cyan;
+
+  }
+
+  .mat-tab-label.mat-tab-label-active {
+      color: chartreuse;
+  }
+
+  /* ::ng-deep .mat-tab-group.matprimary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+      background-color: rgb(21, 240, 1);
+  } */
