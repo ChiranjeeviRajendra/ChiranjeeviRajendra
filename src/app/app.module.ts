@@ -17,6 +17,11 @@ import {MatCardModule} from '@angular/material/card';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { SkillsComponent } from './skills/skills.component';
+import {MatListModule} from '@angular/material/list';
+import { ToggleComponent } from './toggle/toggle.component';
+import {MatMenuModule} from '@angular/material/menu';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +29,9 @@ import { AboutMeComponent } from './about-me/about-me.component';
     HomeComponent,
     NavBarComponent,
     CardsComponent,
-    AboutMeComponent 
+    AboutMeComponent,
+    SkillsComponent,
+    ToggleComponent 
   ],
   imports: [
     BrowserModule,
@@ -37,7 +44,9 @@ import { AboutMeComponent } from './about-me/about-me.component';
     MatDividerModule,
     MatCardModule,
     MatTabsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

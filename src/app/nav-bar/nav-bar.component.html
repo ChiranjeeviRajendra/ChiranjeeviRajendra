@@ -1,9 +1,16 @@
-
-
-<h3 style="text-align: center; color: white;">CHIRANJEEVI</h3>
+<h1 style="text-align: center; color: white; font-weight: 900; margin: 22px 0px;">CHIRANJEEVI</h1>
 <mat-tab-group animationDuration="1000ms" class="groupTab">
-  <mat-tab label="About me"><app-about-me></app-about-me></mat-tab>
-  <mat-tab label="Skills">Content 2</mat-tab>
+  <mat-tab label="About me">
+    <app-about-me></app-about-me>
+  </mat-tab>
+  <mat-tab label="Skills">
+    <app-skills></app-skills>
+  </mat-tab>
   <mat-tab label="Experience">Content 3</mat-tab>
   <mat-tab label="Education">Content 4</mat-tab>
+  <mat-tab disabled>
+    <ng-template mat-tab-label>
+      <app-toggle style="color: rgb(255, 255, 255);"></app-toggle>
+    </ng-template>
+  </mat-tab>
 </mat-tab-group>
