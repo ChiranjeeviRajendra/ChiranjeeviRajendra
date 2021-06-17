@@ -1,1 +1,53 @@
-<app-home></app-home>
+<mat-toolbar>
+    <button mat-icon-button [disableRipple]="true" *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+        <mat-icon *ngIf="!sidenav.opened">menu</mat-icon>
+        <mat-icon *ngIf="sidenav.opened">close</mat-icon>
+    </button>
+    <div style="flex-grow: 1;"></div>
+    <span routerLink="/home" style="cursor: pointer;">Chiranjeevi</span>
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav="matSidenav" (click)="sidenav.mode === 'over' ? sidenav.toggle() :false">
+        
+        <img src="assets/banner2.jpg" alt="image not available">
+        <h2 class="name" style="margin-bottom: 2px;">Chiranjeevi</h2>
+        <span class="designation" >Software Engineer</span>
+
+        <mat-divider></mat-divider>
+
+        <button mat-button class="menu-button" routerLink="/home">
+            <mat-icon>home</mat-icon>
+            <span>Home</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/personalDetails">
+            <mat-icon>person</mat-icon>
+            <span>Personal Details</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/skills">
+            <mat-icon>api</mat-icon>
+            <span>SKills</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/experience">
+            <mat-icon>wysiwyg</mat-icon>
+            <span>Experience</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/projects">
+            <mat-icon>business_center</mat-icon>
+            <span>Projects</span>
+        </button>
+    <button mat-button class="menu-button" routerLink="/education">
+        <mat-icon>school</mat-icon>
+        <span>Education</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="contact">
+        <mat-icon>contact_phone</mat-icon>
+        <span>Contact</span>
+    </button>
+</mat-sidenav>
+    <mat-sidenav-content>
+        <div class="content mat-elevation-z8">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

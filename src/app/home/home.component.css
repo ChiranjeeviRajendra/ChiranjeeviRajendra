@@ -1,0 +1,44 @@
+
+
+img {
+    width: 100%;
+    height: 200px;
+}
+
+.imgbox {
+    text-align: center;
+    color: white;
+}
+
+.p {
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+ngb-carousel {
+    background-color: rgb(42, 42, 243);
+    margin-bottom: 1.3px;
+}
+
+mat-card {
+    background-color: rgb(42, 42, 243);
+    text-align: center;
+    color: white;
+    padding-top: 11px;
+}
+
+mat-divider {
+    background-color: white;
+}
+
+mat-panel-title {
+    color: rgb(42, 42, 243);
+    font-weight: 900;
+    font-size: 21px;
+}
+
+mat-icon {
+    color: rgb(42, 42, 243);
+    font-weight: 900;
+    font-size: 21px;
+}

@@ -1,0 +1,18 @@
+
+
+mat-card {
+    margin-bottom: 22px;
+}
+
+img {
+    width: 50px;
+}
+
+hr {
+    width: 94%;
+    background-color: rgb(42, 42, 243);
+}
+
+mat-toolbar {
+    margin: 22px 0px;
+}

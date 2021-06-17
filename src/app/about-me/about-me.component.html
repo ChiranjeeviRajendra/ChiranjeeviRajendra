@@ -1,38 +1,38 @@
-<mat-accordion>
-    
-    <mat-expansion-panel >
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Self aware panel
-        </mat-panel-title>
-      </mat-expansion-panel-header>
-      <p>I'm visible because I am open</p>
-    </mat-expansion-panel>
 
-    <mat-expansion-panel (opened)="panelOpenState = true"
-                         (closed)="panelOpenState = false">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Self aware panel
-        </mat-panel-title>
-        <mat-panel-description>
-          Currently I am {{panelOpenState ? 'open' : 'closed'}}
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-      <p>I'm visible because I am open</p>
-    </mat-expansion-panel>
 
-    <mat-expansion-panel (opened)="panelOpenState = true"
-                         (closed)="panelOpenState = false">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Self aware panel
-        </mat-panel-title>
-        <mat-panel-description>
-          Currently I am {{panelOpenState ? 'open' : 'closed'}}
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-      <p>I'm visible because I am open</p>
-    </mat-expansion-panel>
-  </mat-accordion>
-  
+<mat-tab-group mat-align-tabs="start">
+  <mat-tab label="Formal Info">
+    <mat-card>
+      <p>Name: Chiranjeevi</p>
+    </mat-card>
+    <mat-card>
+      <p>Father Name: Rajendra K</p>
+    </mat-card>
+    <mat-card>
+      <p>Mother Name: Rajeshwari R</p>
+    </mat-card>
+    <mat-card>
+      <p>(and other personal details comes here)</p>
+    </mat-card>
+  </mat-tab>
+  <mat-tab label="Informal Info">
+    <mat-card class="mat-elevation-z8">
+      <strong>Hobbies</strong>
+      <ul>
+      <li>Playing video games</li>
+      <li>Travelling</li>
+      <li>Learning new things</li>
+      </ul>
+    </mat-card>
+    <mat-card class="mat-elevation-z8">
+      <strong>etc</strong>
+      <ul>
+        <li>etc</li>
+        <li>etc</li>
+        <li>etc</li>
+        <li>etc</li>
+        <li>etc</li>
+      </ul>
+    </mat-card>
+  </mat-tab>
+</mat-tab-group>

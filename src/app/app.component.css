@@ -1,0 +1,56 @@
+@media screen and (min-width: 480px) {
+    .content {
+        margin: 16px;
+        margin-left: 26px;
+    }
+}
+
+mat-toolbar {
+    background-color: rgb(42, 42, 243);
+    color: white;
+}
+
+mat-sidenav {
+    margin: 16px;
+    width: 200px;
+    border-right: none;
+    background-color: rgb(42, 42, 243);
+    color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 14px;
+}
+
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+}
+
+.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px;
+    padding: 1px 8px;
+}
+
+mat-icon {
+    margin-right: 8px;
+    font-size: 20px;
+}   
+
+mat-divider {
+    background-color: rgba(226, 230, 250, 0.39);
+    margin-top: 16px;
+    margin: 16px 12px 16px 12px;
+}
+
+img {
+    border-radius: 50% ;
+    width: 130px;
+    height: 130px;
+}
+
+
+
+
