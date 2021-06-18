@@ -20,8 +20,8 @@ export class HomeComponent implements OnInit {
 
   images = [
     'assets/cara1.png', 
-    'assets/cara2.png', 
-    'assets/cara3.webp', 
+    'assets/cara2.jpg', 
+    'assets/cara3.jpg', 
     'assets/cara4.jpg',
     'assets/cara5.jpg',
     'assets/cara6.png'
