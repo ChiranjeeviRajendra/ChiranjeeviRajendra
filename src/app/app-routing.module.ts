@@ -9,15 +9,15 @@ import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent},
   { path: 'personalDetails', component: AboutMeComponent},
   { path: 'skills', component: SkillsComponent},
   { path: 'home', component: HomeComponent},
-  { path: '', component: HomeComponent},
   { path: 'experience', component: ExperienceComponent},
   { path: 'projects', component: ProjectsComponent},
   { path: 'education', component: EducationComponent},
   { path: 'contact', component: ContactComponent},
-  { path: '**', redirectTo: '' }
+  { path: '**', redirectTo: '/' }
 ];
 
 @NgModule({
