@@ -13,8 +13,6 @@ import { MatDividerModule } from '@angular/material/divider';
 import {MatCardModule} from '@angular/material/card';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatExpansionModule} from '@angular/material/expansion';
-import {MatListModule} from '@angular/material/list';
-import {MatMenuModule} from '@angular/material/menu';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
@@ -35,8 +33,6 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     MatCardModule,
     MatTabsModule,
     MatExpansionModule,
-    MatListModule,
-    MatMenuModule,
     NgbModule
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],

@@ -1,3 +1,12 @@
-mat-card {
+mat-card, div {
     text-align: left;
+}
+
+div {
+    margin: 22px;
+}
+
+::ng-deep .mat-tab-list .mat-tab-labels .mat-tab-label-active{
+    font-weight: 900;
+    opacity: 1;
 }

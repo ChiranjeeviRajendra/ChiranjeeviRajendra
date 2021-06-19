@@ -5,6 +5,12 @@ img {
     height: 234px;
 }
 
+@media screen and (min-width: 800px) {
+    img {
+      height: 310px;
+    }
+  }
+
 .imgbox {
     text-align: center;
     color: white;
