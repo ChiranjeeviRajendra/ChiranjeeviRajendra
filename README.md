@@ -138,5 +138,5 @@
 </table> -->
 
 <p align="center">
-<img src="https://github-readme-statss-inky.vercel.app/api?username=ChiranjeeviRajendra&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&cache_seconds=21600&v=20261103" />
+<img src="https://github-readme-statss-inky.vercel.app/api?username=ChiranjeeviRajendra&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=21600&v=20261103" />
 </p>
