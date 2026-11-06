@@ -1,7 +1,8 @@
 ### Talking about Personal Stuff:
 
 - 👨‍🎓 I'm a **AI Full Stack Engineer**
-- 💬  Devops · Agentic/Generative AI · LangGraph . LangChain . RAG . MySQL . GuardRail 
+- 💬  Devops · Agentic/Generative AI · LangGraph . LangChain . RAG . MySQL . GuardRail
+- 💬  PostgreSQL · pgAdmin4 
 - 💬  Angular · Dotnet · Web Security . Vue . Redux . Django · React
 
 ---
